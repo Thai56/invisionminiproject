@@ -1,0 +1,117 @@
+@import 'https://fonts.googleapis.com/css?family=Baloo+Bhaina';
+.image-main {
+  position:relative;
+  height:100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/assets/mp-hero-01.jpg");
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family:sans-serif;
+  font-weight:bold;
+  border:6px solid white;
+  font-size:5vh;
+  color:white;
+  padding:5px;
+ opacity: .75;
+ display:flex;
+ justify-content:center;
+ width:60%;
+ margin:auto;
+ font-family: "Baloo Bhaina" , cursive;
+}
+.title-sect {
+display:flex;
+justify-content: center;
+align-content: space-between;
+height:12vh;
+width:100vw;
+
+}
+.subtitle {
+  font-family:sans-serif;
+  font-weight:bold;
+  font-size:3vh;
+  color:white;
+ opacity: .75;
+ width:100vw;
+ display:flex;
+ justify-content:center;
+
+}
+.prod1 {
+  height:80vh;
+  width:100%;
+  background-image: url('https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/alice-lee-homepage-tshirt-small.jpg');
+  background-size: cover;
+  margin-bottom: 5px;
+  display:flex;
+  justify-content: center;
+
+}
+.prod2 {
+  height:80vh;
+  width:100%;
+  background-image: url('https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/jesse-brais-homepage-tshirt-small.jpg');
+  background-size: cover;
+  margin-bottom: 5px;
+
+}
+.prod3 {
+  height:80vh;
+  width:100%;
+  background-image: url('https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/jon-contino-homepage-tshirt-small.jpg');
+  background-size: cover;
+  margin-bottom: 5px;
+  display:flex;
+  justify-content: center;
+}
+.prod4 {
+  height:80vh;
+  width:100%;
+  background-image: url('https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/andy-miller-homepage-tshirt-small.jpg');
+  background-size: cover;
+  margin-bottom: 5px;
+  display:flex;
+  justify-content: center;
+}
+.prod5{
+  height:80vh;
+  width:100%;
+  background-image: url('https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/brent-galloway-homepage-tshirt-small.jpg');
+  background-size: cover;
+  margin-bottom: 5px;
+  display:flex;
+  justify-content: center;
+}
+.prod6 {
+  height:80vh;
+  width:100%;
+  background-image: url('https://s3.amazonaws.com/www-assets.invisionapp.com/marketplace/homepage/allan-peters-homepage-tshirt-large.jpg');
+  background-size: cover;
+  margin-bottom: 5px;
+  display:flex;
+  justify-content: center;
+}
+/*email */
+.itemt {
+  width:70%;
+  height:15px;
+  margin:auto;
+}
+span {
+  display:flex;
+  justify-content: center;
+}
+.footer {
+width:100%;
+height:80vh;
+background:black;
+margin-top:30px;
+
+}
